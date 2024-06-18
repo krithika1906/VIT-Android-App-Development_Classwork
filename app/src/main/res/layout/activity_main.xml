@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#B99DD5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -33,7 +34,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:textColor="@color/mycolor"
+        android:layout_width="@dimen/my_btn_width"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="49dp"
