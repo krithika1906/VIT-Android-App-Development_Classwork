@@ -29,7 +29,10 @@ class MainActivity : AppCompatActivity() {
         //var dialIntent = Intent(Intent.ACTION_DIAL)
         //var webIntent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.yahoo.com"))
         //startActivity(webIntent)
-        createAlarm("milk",22,30)
+        //createAlarm("milk",22,30)
+
+        var hIntent = Intent(this,HomeActivity::class.java)
+        startActivity(hIntent)
 
 
     }
