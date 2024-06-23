@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         //createAlarm("milk",22,30)
 
         var hIntent = Intent(this,HomeActivity::class.java)
+        hIntent.putExtra("nkey","krithika-android")
         startActivity(hIntent)
 
 
