@@ -45,20 +45,20 @@ class MainActivity : AppCompatActivity() {
         Log.v(TAG, "activity has got destroyed")
     }
 
-    fun clickHandler(view) {
-        Log.i("MainActivity- clickhandler", "button clicked")
-        var hIntent = Intent(this, HomeActivity::class.java)
-        hIntent.putExtra("mykey", "android vit krithika")
-        startActivity(hIntent)
+    //fun clickHandler(view) {
+     //   Log.i("MainActivity- clickhandler", "button clicked")
+       // var hIntent = Intent(this, HomeActivity::class.java)
+       // hIntent.putExtra("mykey", "android vit krithika")
+        //startActivity(hIntent)
 
-        fun inflateXml() {
-            var nameEditText = EditText(this)
-            nameEditText.setHint("enter your name")
-            var pwdEditText = EditText(this)
-            pwdEditText.setHint("enter your pass")
-            var loginButton = Button(this)
-            loginButton.setText("login")
+     //   fun inflateXml() {
+       //     var nameEditText = EditText(this)
+         //   nameEditText.setHint("enter your name")
+           // var pwdEditText = EditText(this)
+         //   pwdEditText.setHint("enter your pass")
+           // var loginButton = Button(this)
+           // loginButton.setText("login")
 
-        }
-    }
+       // }
+  //  }
 }
